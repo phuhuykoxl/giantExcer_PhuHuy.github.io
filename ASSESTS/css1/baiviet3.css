@@ -1,0 +1,139 @@
+.content {
+    margin-left: 3rem;
+    margin-right: 30rem;
+    margin-bottom: 3rem;
+    background-color: var(--secondary-background-color);
+  }
+.img,p{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    line-height: 26px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.img{
+    width: 100rem;
+    height: 50rem;
+}
+
+.headline-content,h1{
+    padding: 5rem;
+}
+/* sidebar */
+.list_box_news_right .title_box_news_right {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 15px;
+    width: calc(100% - 95px);
+    line-height: 20px;
+}
+.list_box_news_right {
+    margin-top: 20px;
+}
+
+/* --- General Pen Styles --- */
+
+  .content{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 720px;
+  }
+  main{
+    padding: 1% 0;
+    position: relative;
+    background: var(--primary-background-color);
+    box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
+      height: 100%;
+  }
+  footer p{
+    font-size: .8rem;
+    font-weight: bold;
+    color: #ccc;
+  }
+  footer a{color: #ccc;}
+  /* --- Important Pen Styles --- */
+  
+  .zoom{
+    overflow: hidden;
+    padding-bottom: 55%;
+  }
+  .zoom img{
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    max-width: 200%;
+    width: 100%;
+    transform: translateX(-50%);
+    /* Thanks  @bastian_fiessinger. Use when activating blur effect:
+    will-change: -webkit-filter, filter, transform; */
+  }
+  @media (max-width: 667px) {
+    h1{
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+      text-align: left;
+    }
+    .content{
+      margin: 0 auto;
+      max-width: 90%;
+      width: 100%;
+      height: 100%;
+      text-align: justify;
+    }
+    .zoom{
+      overflow: hidden;
+      padding-bottom: 75%;
+    }
+  }
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.site-wrap {
+  max-width: 1000px;
+  margin: 100px auto;
+  background-color: var(--secondary-background-color);
+
+  text-align: justify;
+}
+
+.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+.sub-title{
+    padding-left: 10rem;
+    font-size: smaller;
+    opacity: 0.7;
+}
