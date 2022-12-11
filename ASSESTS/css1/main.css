@@ -606,7 +606,7 @@ body.light-theme{
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
 
     .trending-news-box{
         flex-direction: row;
